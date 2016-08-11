@@ -1,7 +1,7 @@
 #if os(Linux)
     
 import XCTest
-@testable import ReflectionTestSuite
+@testable import ReflectionTests
     
 XCTMain([
     testCase(InternalTests.allTests),
